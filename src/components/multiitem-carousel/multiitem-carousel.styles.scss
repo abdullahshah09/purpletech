@@ -1,0 +1,31 @@
+.item-one {
+   width: 22vw;
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   align-items: center;
+   position: relative; 
+   overflow: hidden;
+   z-index: 2;
+ 
+   .CustomButtonContainer {
+      width: 80%;
+      opacity: 0.7;
+      position: absolute;
+      top: 100px;
+      z-index: 5;
+      display: none;
+    
+   }
+
+   &:hover {
+      .image {
+         opacity: 0.8;
+      }
+      
+      .custom-button {
+         opacity: 0.85;
+         display: flex;
+      }
+   }
+}

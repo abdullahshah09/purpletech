@@ -1,0 +1,23 @@
+form {
+   width: 380px;
+   display: flex;
+   flex-direction: column;
+
+   .error-message {
+      color: red;
+      font-weight: bold;
+   }
+
+   
+   .btn-primary {
+      color: #fff;
+      background-color: #9500ff;
+      border-color: black;
+      &:hover {
+         background-color: black;
+      }
+   }
+
+}
+
+
